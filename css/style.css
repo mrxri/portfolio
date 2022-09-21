@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&display=swap');
+:root{
+	--color-negro:#000;
+	--color-texto:#212529;
+}
+body{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 14px;
+	color: var(--color-texto);
+}
+header{
+    background-color: #141414;
+	color: #f0f0f0;
+}
+
+
+
+
+
+/*hero*/
+
+#intro{
+	background-image: url("../img/bg 1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	text-align: center;
+}
+
+#intro h1{
+	color: #141414;
+	font-size: 300px;
+	text-align: left;
+	padding: 200px 100px;
+}
+
+
+
+/*sobre mi*/
+
+
+#about{
+	background-color:#f0f0f0;
+	padding: 250px 0px;
+}
+
+#about h1{
+	font-size: 50px;
+	text-align: center;
+	padding: 15px 0px;
+}
+
+#about h3,h4,p{
+	text-align: center;
+	padding: 15px 0px;
+}
+
+.icon-container{
+	width: 50%;
+	margin-left: 15%;
+}
+
+
+.icon-socials{
+	padding: 40px 200px;
+	color: #141414;
+	width: 80px;
+	height: 80px;
+	display: block;
+	font-size: 50px;
+	align: center;
+	
+}
+
+
+
+
+
+
+/*servicios*/
+
+#services{
+	background-image:url("../img/bg 2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	text-align: center;
+}
+
+#servicios{
+	text-align: right;
+	padding: 100px 0px;
+}
+
+
+#servicios h2{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 500px;	
+	text-align: right;
+	margin: 100px 0px;
+}
+
+.buttons{
+	padding:100px 0;
+}
+
+#servicios .img-fluid{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	text-align: right;
+}
+
+
+/*contactame*/
+
+
+#contact{
+	background-image:url("../img/bg 3.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	text-align: center;
+}
+
+#contact h1{
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 100px;
+	padding-left: 100px;
+}
+
+
+
+.submit-button{
+	background-color: transparent;
+	border: 3px solid #352378;
+	border-radius: 50px;
+	color:#352378;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding: 20px 50px;
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	text-align: center;
+}
+
+#form{
+	display: block;
+	margin: 0 auto;
+	width: 600px;
+	text-align: left;
+	padding: 150px 0;
+}
+
+
+.section{
+	padding:50px 0;
+	min-height:800px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #141414 !important;
+}
+
+
+
+footer{
+	background-color: #141414;
+	color: #f0f0f0;
+	padding: 20px;
+	
+}
+
